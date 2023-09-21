@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ffe100;
+}
+
+
+.Titulo { font-size: 45px;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.subtitulo {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#guessField {
+    width: 120px;
+    height: 25px;
+}
+
+#submit {
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+    .container {padding-top: 400px; text-align: center;
+    
+        margin: auto;
+        width: 600px;
+        height: auto;
+        padding: 30px;
+        background-color:#000000;
+        box-shadow: 0 10px 30px #ff0000;
+        border-radius: 8px;
+    color: #ffffff;
+    }
+
+    input{
+        border-radius: 20px;
+        padding: 5px; background-color: white; color: black;
+    }
+    #restartButton{ border-radius: 20px;
+        padding: 5px; background-color: white; color: black;
+
+    }
